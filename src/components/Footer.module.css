@@ -1,0 +1,42 @@
+footer {
+  background-color: #1f1f1f;
+  color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  height: 200px;
+  width: 100%;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_media div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social_media div a {
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+.social_media div a:hover {
+  color: #b1b1b1;
+}
+
+.rights_reserved {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
