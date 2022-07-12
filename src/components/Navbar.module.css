@@ -7,6 +7,8 @@ nav {
   opacity: 10px;
   box-shadow: rgba(0, 0, 0, 0.245) 5px 5px 10px 1px;
   color: #ebebeb;
+  position: absolute;
+  width: 100%;
 }
 
 nav p {
