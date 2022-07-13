@@ -13,6 +13,7 @@ import Contact from './pages/Contact/Contact';
 
 // Styles
 import './App.css';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+        <BackToTop />
         <Footer />
       </BrowserRouter>
     </div>

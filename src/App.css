@@ -1,9 +1,31 @@
 .main_content {
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
 }
 
 .App {
   background-color: #5b5b5b;
+}
+
+.btn-dark {
+  border: none;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #1f1f1f 0%, #626262 51%, #1f1f1f 100%);
+  background-size: 200% auto;
+  transition: .5s;
+  color: #ebebeb;
+  font-weight: bold;
+}
+
+.btn-dark:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }

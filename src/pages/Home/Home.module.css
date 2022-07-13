@@ -1,6 +1,7 @@
 .home_content {
   width: 100%;
   min-height: 80vh;
+  background-color: #ebebeb;
 }
 
 .loading_data {
@@ -13,7 +14,6 @@
 }
 
 .cover_bg_image {
-  /* position: absolute; */
   z-index: -1;
   top: 0;
   background-color: rgb(139, 68, 68);
@@ -49,7 +49,9 @@
   background-color: #ebebeb;
 }
 
-.profile_info h1, p {
+.profile_info h1,
+p,
+h2 {
   padding: 0px 100px;
   margin: 0;
 }
@@ -60,4 +62,26 @@
   align-items: center;
   gap: 20px;
   background-color: #ebebeb;
+}
+
+.profile_info h1 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.profile_info h2 {
+  padding: 20px 0px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.profile_info p {
+  text-indent: 1.5em;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.profile_info p span {
+  font-weight: bolder;
+  text-transform: uppercase;
 }
