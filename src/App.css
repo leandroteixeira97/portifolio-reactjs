@@ -5,7 +5,7 @@
 }
 
 .App {
-  background-color: #5b5b5b;
+  background-color: #1f1f1f;
 }
 
 .btn-dark {
@@ -15,17 +15,15 @@
   font-size: 1em;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  background-color: transparent;
+  background-color: #1f1f1f;
   cursor: pointer;
-  background-image: linear-gradient(to right, #1f1f1f 0%, #626262 51%, #1f1f1f 100%);
-  background-size: 200% auto;
   transition: .5s;
   color: #ebebeb;
-  font-weight: bold;
+  border: 1px solid #1f1f1f;
 }
 
 .btn-dark:hover {
-  background-position: right center;
-  color: #fff;
+  color: #1f1f1f;
+  background-color: #ebebeb;
   text-decoration: none;
 }

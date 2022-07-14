@@ -1,5 +1,4 @@
 // React Hooks
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // Hooks
@@ -15,7 +14,7 @@ const Home = () => {
   const { data: profileData, loading, error } = useFetch(profileUrl);
 
   return (
-    <div className={styles.home_content}>
+    <div className={styles.home_content} >
       {loading ? (
         <div className={styles.loading_data}>
           <i className='bx bx-loader-alt bx-spin bx-lg'></i>
@@ -40,8 +39,8 @@ const Home = () => {
             <h2>Clique abaixo para saber mais:</h2>
           </div>
           <div className={styles.home_buttons}>
-            <Link to={'/aboutme'} className="btn-dark">Conheça minha trajetória</Link>
             <Link to={'/projects'} className="btn-dark">Veja meus projetos</Link>
+            <Link to={'/aboutme'} className="btn-dark">Conheça minha trajetória</Link>
             <Link to={'/contact'} className="btn-dark">Entre em contato</Link>
           </div>
         </>

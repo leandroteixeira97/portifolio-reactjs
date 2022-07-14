@@ -1,0 +1,71 @@
+.storyline_card {
+  background-color: #ebebeb;
+  padding: 20px 0px;
+  min-height: 300px;
+  width: 60%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.storyline_card_inverted {
+  background-color: #ebebeb;
+  height: 300px;
+  width: 60%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_image img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+}
+
+.story_info {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 70%;
+}
+
+.story_title {
+  padding: 0px 20px;
+}
+
+.story_company {
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px 20px;
+  font-style: italic;
+}
+
+.story_info p {
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+.story_year {
+  font-style: italic;
+}
+
+hr {
+  height: 80%;
+  border: none;
+  width: 1px;
+  background-color: #ccc;
+}

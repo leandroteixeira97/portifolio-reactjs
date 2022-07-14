@@ -10,16 +10,16 @@ const Footer = () => {
       <div className={styles.social_media}>
         <h3>Siga-me em minhas redes sociais</h3>
         <div>
-          <a href="https://www.linkedin.com/in/leandroteixeira97" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/leandroteixeira97" target="_blank" rel="noreferrer">
             <i className="bx bxl-linkedin-square bx-md bx-tada-hover"></i>
           </a>
-          <a href="https://www.github.com/leandroteixeira97" target="_blank">
+          <a href="https://www.github.com/leandroteixeira97" target="_blank" rel="noreferrer">
             <i className="bx bxl-github bx-md bx-tada-hover"></i>
           </a>
-          <a href="https://www.instagram.com/leandroteixeira97" target="_blank">
+          <a href="https://www.instagram.com/leandroteixeira97" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram bx-md bx-tada-hover"></i>
           </a>
-          <a href="https://www.facebook.com/leandro.teixeira.sccp" target="_blank" >
+          <a href="https://www.facebook.com/leandro.teixeira.sccp" target="_blank" rel="noreferrer" >
             <i className='bx bxl-facebook-square bx-md bx-tada-hover'></i>
           </a>
         </div>
