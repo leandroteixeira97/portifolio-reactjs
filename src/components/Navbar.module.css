@@ -3,11 +3,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  background-color: #1f1f1f72;
   backdrop-filter: blur(6px);
   opacity: 10px;
   box-shadow: rgba(0, 0, 0, 0.245) 5px 5px 10px 1px;
-  color: #ebebeb;
-  position: absolute;
+  color: white;
+  position: fixed;
+  z-index: 99;
   width: 100%;
 }
 
@@ -16,13 +18,13 @@ nav p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 100px;
 }
 
 nav p a {
-  color: #ebebeb;
+  color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 nav ul {
@@ -30,7 +32,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 30px;
+  padding-right: 100px;
   margin: 0px;
   list-style: none;
   gap: 30px;
@@ -49,10 +51,19 @@ nav ul li a {
   box-sizing: border-box;
   height: 100%;
   text-decoration: none;
-  color: #ebebeb;
+  color: white;
+  font-weight: lighter;
 }
 
 nav ul li a:hover {
   transition: .5s;
   color: #b1b1b1;
+}
+
+.navbar_logo {
+  font-weight: lighter; 
+}
+
+.navbar_logo span {
+  font-weight: bold;
 }

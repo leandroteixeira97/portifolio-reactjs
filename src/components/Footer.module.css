@@ -19,6 +19,7 @@ footer {
 }
 
 .social_media div {
+  transition: .5s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +27,7 @@ footer {
 }
 
 .social_media div a {
+  transition: .5s;
   color: #ebebeb;
   text-decoration: none;
 }

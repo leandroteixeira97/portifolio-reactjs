@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <nav>
       <p>
-        <Link to="/" className="navbar_logo">
-          Meu portifólio
+        <Link to="/" className={styles.navbar_logo}>
+          <span>Leandro</span> Aquino
         </Link>
       </p>
       <ul>

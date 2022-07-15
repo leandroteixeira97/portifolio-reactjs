@@ -1,0 +1,45 @@
+.projects {
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+.cover_bg_image {
+  width: 100%;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: #1f1f1f 1px 1px 10px 1px;
+}
+
+.cover_bg_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects_info {
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.project_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 100px;
+}
+
+.see_more_github {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading_data {
+  padding: 50px 0px;
+}

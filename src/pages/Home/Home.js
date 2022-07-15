@@ -32,9 +32,18 @@ const Home = () => {
             <div>
               <p>Seja bem-vindo(a) ao meu portifólio pessoal. Me chamo <span>Leandro Aquino</span>, e desde criança sou apaixonado por tecnologia em geral. Comecei no mundo da programação estudando tecnologias front-end, mas um dia quero me tornar um desenvolvedor full-stack. Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São José dos Campos - SP | Brasil.</p>
               <p>Possuo experiência no desenvolvimento web, utilizando tecnologias como HTML, CSS, JavaScript ES6, React e ferramentas para versionamento de código, tais como Git e GitHub. Também possuo conhecimentos no desenvolvimento utilizando Python, com ênfase na utilização do micro-framework Flask.</p>
-              <p>💻 Tecnologias: HTML5, CSS3, JavaScript ES6, ReactJS and Python.</p>
-              <p>💼 Ferramentas: VSCode, Canva, Photoshop, Figma, Git e GitHub</p>
-              <p>📚 Estudando agora: ReactJS</p>
+            </div>
+            <div className={styles.technologies}>
+              <h2>Tecnologias</h2>
+              <div>
+                <i class='bx bxl-html5 bx-lg bx-tada-hover'></i>
+                <i class='bx bxl-css3 bx-lg bx-tada-hover' ></i>
+                <i class='bx bxl-javascript bx-lg bx-tada-hover' ></i>
+                <i class='bx bxl-react bx-lg bx-tada-hover' ></i>
+                <i class='bx bxl-python bx-lg bx-tada-hover' ></i>
+                <i class='bx bxl-git bx-lg bx-tada-hover' ></i>
+                <i class='bx bxl-bootstrap bx-lg bx-tada-hover' ></i>
+              </div>
             </div>
             <h2>Clique abaixo para saber mais:</h2>
           </div>

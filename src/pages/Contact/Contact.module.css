@@ -1,0 +1,19 @@
+.contact_content {
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+.cover_bg_image {
+  width: 100%;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  box-shadow: #1f1f1f 1px 1px 10px 1px;
+}
+
+.cover_bg_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
