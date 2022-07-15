@@ -7,13 +7,6 @@ import ProjectCard from '../../components/ProjectCard';
 // Styles
 import styles from './Projects.module.css';
 
-// Media
-import { Api } from '../../assets/api.png';
-import { Costs } from '../../assets/costs.png';
-import { Guesses } from '../../assets/guesses.png';
-import { Miniblog } from '../../assets/miniblog.png';
-import { Netflix } from '../../assets/netflix.png';
-
 const reposUrl = "https://api.github.com/users/leandroteixeira97/repos";
 
 const Projects = () => {
@@ -42,11 +35,11 @@ const Projects = () => {
           ) : (<>
             {reposData &&
               <>
-                <ProjectCard name={repoAPI1ADS.name} description={repoAPI1ADS.description} url={repoAPI1ADS.html_url} image={Api} />
-                <ProjectCard name={repoGerenciadorProjetos.name} description={repoGerenciadorProjetos.description} url={repoGerenciadorProjetos.html_url} image={Costs} />
-                <ProjectCard name={repoMiniblog.name} description={repoMiniblog.description} url={repoMiniblog.html_url} image={Miniblog} />
-                <ProjectCard name={repoNetflixClone.name} description={repoNetflixClone.description} url={repoNetflixClone.html_url} image={Netflix} />
-                <ProjectCard name={repoSecretWord.name} description={repoSecretWord.description} url={repoSecretWord.html_url} image={Guesses} />
+                <ProjectCard name={repoAPI1ADS.name} description={repoAPI1ADS.description} url={repoAPI1ADS.html_url} image={"https://github.com/leandroteixeira97/portifolio-reactjs/blob/main/src/assets/api.png?raw=true"} />
+                <ProjectCard name={repoGerenciadorProjetos.name} description={repoGerenciadorProjetos.description} url={repoGerenciadorProjetos.html_url} image={"https://github.com/leandroteixeira97/portifolio-reactjs/blob/main/src/assets/costs.png?raw=true"} />
+                <ProjectCard name={repoMiniblog.name} description={repoMiniblog.description} url={repoMiniblog.html_url} image={"https://github.com/leandroteixeira97/portifolio-reactjs/blob/main/src/assets/miniblog.png?raw=true"} />
+                <ProjectCard name={repoNetflixClone.name} description={repoNetflixClone.description} url={repoNetflixClone.html_url} image={"https://github.com/leandroteixeira97/portifolio-reactjs/blob/main/src/assets/netflix.png?raw=true"} />
+                <ProjectCard name={repoSecretWord.name} description={repoSecretWord.description} url={repoSecretWord.html_url} image={"https://github.com/leandroteixeira97/portifolio-reactjs/blob/main/src/assets/guesses.png?raw=true"} />
               </>
             }
           </>)}
@@ -54,7 +47,7 @@ const Projects = () => {
       </div>
       {!loading && <div className={styles.see_more_github}>
         <h2>Veja mais em meu GitHub</h2>
-        <a href="https://www.github.com/leandroteixeira97/repos" target="_blank" className='btn-dark'>Clique aqui</a>
+        <a href="https://www.github.com/leandroteixeira97" target="_blank" className='btn-dark'>Clique aqui</a>
       </div>}
     </div>
   );
