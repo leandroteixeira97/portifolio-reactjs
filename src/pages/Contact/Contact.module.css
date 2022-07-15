@@ -1,6 +1,10 @@
 .contact_content {
   width: 100%;
   background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .cover_bg_image {
@@ -16,4 +20,33 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 30px;
+}
+
+.contact_form input, textarea {
+  width: 100%;
+  border: none;
+  height: 30px;
+  background-color: #ebebeb;
+  border-bottom: 1px solid #ccc;
+  color: #1f1f1f;
+  font-family: "Open sans", sans-serif;
+}
+
+.contact_form textarea {
+  height: 150px;
+}
+
+.contact_form input:focus {
+  outline: none;
+}
+
+.contact_form button {
+  width: 100px;
 }
