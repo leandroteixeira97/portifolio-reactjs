@@ -48,9 +48,9 @@ const Home = () => {
             <h2>Clique abaixo para saber mais:</h2>
           </div>
           <div className={styles.home_buttons}>
-            <Link to={'/projects'} className="btn-dark">Veja meus projetos</Link>
-            <Link to={'/aboutme'} className="btn-dark">Conheça minha trajetória</Link>
-            <Link to={'/contact'} className="btn-dark">Entre em contato</Link>
+            <Link to={'/portifolio-reactjs/projects'} className="btn-dark">Veja meus projetos</Link>
+            <Link to={'/portifolio-reactjs/aboutme'} className="btn-dark">Conheça minha trajetória</Link>
+            <Link to={'/portifolio-reactjs/contact'} className="btn-dark">Entre em contato</Link>
           </div>
           {error && console.log(error)}
         </>

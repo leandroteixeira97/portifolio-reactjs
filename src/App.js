@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home/Home';
-import AboutMe from './pages/AbouteMe/AboutMe';
+import AboutMe from './pages/AboutMe/AboutMe';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 
@@ -22,10 +22,10 @@ function App() {
         <Navbar />
         <div className="main_content">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/aboutme" element={<AboutMe />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/portifolio-reactjs/" element={<Home />} />
+            <Route path="/portifolio-reactjs/aboutme" element={<AboutMe />} />
+            <Route path="/portifolio-reactjs/projects" element={<Projects />} />
+            <Route path="/portifolio-reactjs/contact" element={<Contact />} />
           </Routes>
         </div>
         <BackToTop />

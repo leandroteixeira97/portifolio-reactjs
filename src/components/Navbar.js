@@ -7,22 +7,22 @@ const Navbar = () => {
   return (
     <nav>
       <p>
-        <Link to="/" className={styles.navbar_logo}>
+        <Link to="/portifolio-reactjs/" className={styles.navbar_logo}>
           <span>Leandro</span> Aquino
         </Link>
       </p>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/portifolio-reactjs/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/aboutme">Sobre mim</NavLink>
+          <NavLink to="/portifolio-reactjs/aboutme">Sobre mim</NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projetos</NavLink>
+          <NavLink to="/portifolio-reactjs/projects">Projetos</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contato</NavLink>
+          <NavLink to="/portifolio-reactjs/contact">Contato</NavLink>
         </li>
       </ul>
     </nav>
