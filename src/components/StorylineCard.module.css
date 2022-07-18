@@ -69,3 +69,29 @@ hr {
   width: 1px;
   background-color: #ccc;
 }
+
+@media screen and (max-width: 800px) {
+  .storyline_card, .storyline_card_inverted {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .story_info {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .story_title, .story_company, .story_info p {
+    padding: 0px;
+  }
+
+  .story_title, .story_company {
+    text-align: center;
+  }
+
+  hr {
+    display: none;
+  }
+}

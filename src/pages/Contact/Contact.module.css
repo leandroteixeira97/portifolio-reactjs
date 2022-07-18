@@ -29,7 +29,8 @@
   gap: 30px;
 }
 
-.contact_form input, textarea {
+.contact_form input,
+textarea {
   width: 100%;
   border: none;
   height: 30px;
@@ -49,4 +50,22 @@
 
 .contact_form button {
   width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+
+  .contact_form {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .contact_form {
+    width: 60%;
+    padding-bottom: 30px;
+  }
 }

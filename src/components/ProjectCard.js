@@ -10,7 +10,7 @@ const ProjectCard = ({name, description, url, image}) => {
       <div className={styles.project_info}>
         <h4>{name}</h4>
         <p className={styles.project_description}>{description}</p>
-        <a href={url} target="_blank" className="btn-dark">Saiba mais</a>
+        <a href={url} target="_blank" className="btn-dark" rel="noreferrer" >Saiba mais</a>
       </div>
     </div>
   )

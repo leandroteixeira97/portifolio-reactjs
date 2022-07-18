@@ -1,11 +1,11 @@
 nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
+  min-height: 50px;
   background-color: #1f1f1f72;
   backdrop-filter: blur(6px);
-  opacity: 10px;
   box-shadow: rgba(0, 0, 0, 0.245) 5px 5px 10px 1px;
   color: white;
   position: fixed;
@@ -66,4 +66,25 @@ nav ul li a:hover {
 
 .navbar_logo span {
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    padding: 20px 0px 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav p {
+    padding: 0px 0px;
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+  }
 }

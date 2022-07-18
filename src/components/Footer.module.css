@@ -7,7 +7,7 @@ footer {
   align-items: center;
   margin: 0px;
   padding: 0px;
-  height: 200px;
+  min-height: 200px;
   width: 100%;
 }
 
@@ -41,4 +41,19 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .rights_reserved {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 30px;
+  }
+
+  .rights_reserved p {
+    padding: 0px;
+  }
 }

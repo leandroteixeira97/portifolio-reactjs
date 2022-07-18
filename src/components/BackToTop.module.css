@@ -1,18 +1,17 @@
 .back_to_top {
   position: fixed;
   border-radius: 100%;
-  background-color: #ebebeb;
-  border: 1px solid #1f1f1f;
+  background-color: rgba(31, 31, 31, 0.304);
+  backdrop-filter: blur(6px);
+  border: 1px solid #ebebeb;
+  color: #ebebeb;
   right: 30px;
   bottom: 30px;
   width: 40px;
   height: 40px;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.back_to_top a {
-  color: #1f1f1f;
-  text-decoration: none;
+  box-shadow: #1f1f1f 1px 1px 10px 1px;
+  cursor: pointer;
 }

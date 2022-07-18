@@ -47,8 +47,9 @@ const Projects = () => {
       </div>
       {!loading && <div className={styles.see_more_github}>
         <h2>Veja mais em meu GitHub</h2>
-        <a href="https://www.github.com/leandroteixeira97" target="_blank" className='btn-dark'>Clique aqui</a>
+        <a href="https://www.github.com/leandroteixeira97" target="_blank" rel="noreferrer" className='btn-dark'>Clique aqui</a>
       </div>}
+      {error && console.log(error)}
     </div>
   );
 };

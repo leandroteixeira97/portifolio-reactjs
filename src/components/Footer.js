@@ -25,8 +25,12 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.rights_reserved}>
-        <p>São José dos Campos, 2022</p>
-        <p>Todos os direitos reservados &copy;</p>
+        <div>
+          <p>São José dos Campos, 2022</p>
+        </div>
+        <div>
+          <p>Todos os direitos reservados &copy;</p>
+        </div>
       </div>
     </footer>
   );

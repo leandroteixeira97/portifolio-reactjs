@@ -65,14 +65,15 @@
   width: 100%;
   max-height: 300px;
   display: grid;
-  grid-template: 1fr / 1fr 1fr 1fr 1fr ;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
   box-sizing: border-box;
 }
 
 .storyline_years {
   overflow-y: scroll;
   box-sizing: border-box;
-  grid-area: 1 / 1 / 2 / 2; 
+  max-height: 300px;
+  grid-area: 1 / 1 / 2 / 2;
 }
 
 .storyline_years::-webkit-scrollbar {
@@ -93,8 +94,8 @@
   align-items: center;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  border-bottom: 1px solid #ccc ;
-  border-right: 1px solid #ccc ;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   height: 80px;
   background-color: white;
 }
@@ -112,6 +113,7 @@
 .storyline_info {
   padding: 0px;
   margin: 0px;
+  max-height: 300px;
   background-color: #1f1f1f;
   color: #ebebeb;
   box-sizing: border-box;
@@ -127,10 +129,10 @@
   padding: 30px 0px;
   flex-direction: column;
   gap: 30px;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
-/* .storyline_info div::-webkit-scrollbar {
+.storyline_info div::-webkit-scrollbar {
   width: 0px;
 }
 
@@ -141,7 +143,7 @@
 .storyline_info div::-webkit-scrollbar-thumb {
   background-color: #1f1f1f;
   border-radius: 2px;
-} */
+}
 
 .storyline_info div p {
   text-indent: 0px;
@@ -152,8 +154,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .know_more h2 {
   font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+  .know_more h2 {
+    padding-bottom: 30px;
+  }
+
+  .know_more {
+    padding: 0px 0px 30px;
+  }
+
 }
