@@ -52,6 +52,7 @@ const Home = () => {
             <Link to={'/aboutme'} className="btn-dark">Conheça minha trajetória</Link>
             <Link to={'/contact'} className="btn-dark">Entre em contato</Link>
           </div>
+          {error && console.log(error)}
         </>
       )}
     </div>

@@ -124,7 +124,7 @@ const AboutMe = () => {
       </div>
       <div className={styles.know_more}>
         <h2>Veja mais em meu LinkedIn:</h2>
-        <a href='https://www.linkedin.com/in/leandroteixeira97' target="_blank" className="btn-dark">Clique aqui</a>
+        <a href='https://www.linkedin.com/in/leandroteixeira97' target="_blank" className="btn-dark" rel="noreferrer" >Clique aqui</a>
       </div>
     </div>
   );
