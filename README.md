@@ -13,7 +13,7 @@ Para rodar o projeto em uma máquina local você precisará, primeiramente, do N
 ### Passo I
 Realizar o seguinte comando no bash do git:
 
-`git clone https://github.com/leandroteixeira97/miniblog-reactjs.git`
+`git clone https://github.com/leandroteixeira97/portifolio-reactjs.git`
 
 Isto realizará uma cópia local do repositório em sua máquina.
 
